@@ -1,6 +1,6 @@
 #include "reg52.h"
-#include "adc.h"
-#include "lcd.h"
+#include "adcModule.h"
+#include "lcdModule.h"
 
 
 sbit READ         = P1^2;//READ DATA FROM BUFFER

@@ -1,5 +1,5 @@
 #include <reg52.h>
-#include"uart.h"
+#include"uartModule.h"
 
 void uartinit()
 {

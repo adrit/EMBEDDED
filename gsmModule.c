@@ -1,8 +1,8 @@
 #include<reg51.h>
 #include<string.h>
-#include"gsm.h"
-#include"uart.h"
-#include"lcd.h"
+#include"gsmModule.h"
+#include"uartModule.h"
+#include"lcdModule.h"
 
 
 void gsmInit()

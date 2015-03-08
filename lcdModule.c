@@ -1,6 +1,6 @@
 #include<reg51.h>
 #include<string.h>
-#include "lcd.h"
+#include "lcdModule.h"
 
 sbit ENABLE = P1^0;
 sbit COMMAND_SELECT = P1^1;
