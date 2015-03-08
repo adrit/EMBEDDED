@@ -72,3 +72,10 @@ void gsmMsgSend(unsigned char *cmgs,unsigned char *phno,unsigned char *msg)
     gsmSendEnter();
     lcdStrDisplay("MESSAGE SENT    ","                "); 
 }
+
+void gsmDelay()
+{
+    unsigned int cnt = 0;
+	
+	for(cnt = 0; cnt < 40000; cnt++);	
+}
